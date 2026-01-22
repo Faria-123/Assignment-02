@@ -60,6 +60,49 @@ header{
     font-size: 0.7rem;
 
   }
+
+/* annimation */
+.nav-btn.white {
+  display: inline-flex;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 24px;
+  background-color: #ffffff;
+  color: #000000;
+  border: 2px solid #ffffff;
+  border-radius: 8px;
+  cursor: pointer;
+  font-weight: 600;
+  
+ 
+  transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+
+.nav-btn.white:hover {
+  background-color: transparent;
+  color: #ffffff;
+  transform: translateY(-2px); 
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+}
+
+/* Icon Animation */
+.nav-btn.white i {
+  transition: transform 0.3s ease;
+}
+
+.nav-btn.white:hover i {
+  transform: translateX(5px); /* Arrow right */
+}
+
+/* Active (Click) Effect */
+.nav-btn.white:active {
+  transform: translateY(0);
+  scale: 0.95;
+}
+
+
+
   
   .navbar{
     
