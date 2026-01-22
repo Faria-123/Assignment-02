@@ -76,7 +76,7 @@ header{
   }
   .banner-container{
     max-width: 550px;
-    border: 1px solid red;
+    /* border: 1px solid red; */
     margin: 101px auto;
     margin-bottom: 0px;
     /* flex-direction: column; */
@@ -272,7 +272,7 @@ header{
 .choose-container{
   max-width: 1200px;
   /* margin: 120px 200px; */
-  border: 1px solid red;
+  /* border: 1px solid red; */
   display: grid;
   /* grid-template-rows:1fr 140px;
   grid-template-columns:1fr 200px; */
@@ -319,7 +319,7 @@ header{
   /* padding-bottom: 100px; */
 }
 .card-container{
-   border: 1px solid red;
+   /* border: 1px solid red; */
   max-width: 1200px;
   margin: 40px auto;
 
@@ -416,6 +416,38 @@ header{
   border: 2.2px solid #533C72;
   padding: 0.6rem;
   border-radius: 8rem;
+}
+.font-1{
+  font-size: 3rem;
+  font-weight: 900;
+}
+.spo{
+  display: flex;
+  gap: 5px;
+}
+.spo img{
+  max-width: 24px;
+  max-height: 24px;
+}
+.des-foot{
+  display: flex;
+  gap: 40px;
+}
+footer{
+  max-width: 1600px;
+  margin: 0 auto;
+  background-image: url("./assets/footer-bg.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer1{
+  max-width: 1330px;
+  /* text-align: center; */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 120px;
 }
 @media screen and  (max-width: 576px){
     .nav-logo h1{
@@ -574,6 +606,48 @@ header{
   overflow: hidden;
   text-overflow: ellipsis;
 }
+.meet{
+  max-width: 100%;
+}
+.meet-container{
+  flex-direction: column;
+}
+.meet-img{
+  max-width: 400px;
+  margin: 0 auto;
+  flex-direction: column;
+}
+.img-des{
+  text-align: center;
+}
+.img-logo{
+  justify-content: center;
+}
 
-
+footer{
+  max-width: 100%;
+  margin: 0 auto;
+  /* background-image: url("./assets/footer-bg.png"); */
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.footer1{
+  max-width: 400px;
+  /* text-align: center; */
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 40px;
+}
+.des-foot{
+  max-width: 250px;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
+}
+.footer1 p{
+  font-size: 14px;
+}
 }
